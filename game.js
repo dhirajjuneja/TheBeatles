@@ -3,12 +3,11 @@ function confirmGame() {
   const conf = prompt("You Sure?(yes or no)");
   const conf2 = conf.toLowerCase();
   if (conf2 == "yes") {
-    const name = prompt("Whats your name?");
-    const h1 = document.createElement("h1");
-    const text = document.createTextNode("Hello " + name);
-    h1.setAttribute("id", "name_of_player");
-    h1.appendChild(text);
-    document.getElementById("game_start").appendChild(h1);
+    const div_element = document.createElement('div');
+    div_element.setAttribute('id','game-box');
+    document.getElementById('game_start').appendChild(div_element);
+    document.getElementById('game-box').style.backgroundColor = 'red';
+    document.getElementsByClassName('start-content').textContent = 'Waiting for other player to start';
   } else {
     window.location.href = "index.html";
   }
