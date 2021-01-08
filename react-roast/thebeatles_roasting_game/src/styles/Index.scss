@@ -1,0 +1,17 @@
+$margin: 40px;
+$padding: 40px;
+$justify: center;
+
+.gaming-page,
+.ranking-page {
+  .content-div div {
+    margin: $margin;
+    padding: $padding;
+    height: 100px;
+    display: flex;
+    align-items: $justify;
+  }
+}
+.border {
+  background-color: rgb(177, 185, 189);
+}
