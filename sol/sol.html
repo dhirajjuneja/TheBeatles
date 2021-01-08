@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaming Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/dist/game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid justify-content-center align-items-center">
+          <a class="navbar-brand" href="index.html">TheBeatles</a>
+        </div>
+      </header>
+      <h3 class="d-flex justify-content-center align-items-center">
+        Welcome to gaming page here you can play the roasting game and roast
+        your opponent.
+      </h3>
+      <!-- <div class="gaming-page col-sm">
+        <div class="content-div border">
+          <div class="h1-text">
+            <h1
+              class="content d-flex justify-content-center align-items-center"
+            >
+              Let's Start this game...
+            </h1>
+          </div>
+          <div
+            class="game_box d-flex justify-content-center align-items-center"
+          >
+            <button class="btn btn-danger" onclick="startGame()">
+              <h4>Start this game</h4>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="gaming-page col-sm">
+        <div class="game_box_start">
+
+        </div>
+      </div> -->
+      <div class="container_1">
+        <div class="game-box_1">
+          <div>
+            <button class="btn btn-primary" , onclick="ageIndays()">
+              Start game
+            </button>
+          </div>
+          <div>
+            <button class="btn btn-danger" , onclick="reset()">Reset</button>
+          </div>
+        </div>
+        <div class="flex-box_1">
+          <div id="flex-box_results"></div>
+        </div>
+      </div>
+
+      <div class="gaming-page col-sm">
+        <div class="content-div border">
+          <div class="h1-text">
+            <h1
+              class="content d-flex justify-content-center align-items-center"
+            >
+              Let's Start this game...
+            </h1>
+          </div>
+          <div
+            class="game_box d-flex justify-content-center align-items-center"
+          >
+            <button class="btn btn-danger" onclick="startGame()">
+              <h4>Start this game</h4>
+            </button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="game_container">
+        <div class="box1 d-flex justify-content-evenly">
+          <div class="d-flex">
+            <button onclick="startGame()" class="btn btn-danger">
+              <h4>Start this game</h4>
+            </button>
+          </div>
+          <div>
+            <button class="btn btn-primary">
+              <h4>Go Back</h4>
+            </button>
+          </div>
+        </div>
+        <div class="box2">
+          <div id="game_start"></div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>

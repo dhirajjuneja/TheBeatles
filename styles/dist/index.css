@@ -1,0 +1,11 @@
+.gaming-page .content-div div, .ranking-page .content-div div {
+  margin: 40px;
+  padding: 40px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.border {
+  background-color: #b1b9bd;
+}

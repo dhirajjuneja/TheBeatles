@@ -1,0 +1,15 @@
+.gaming-page .content-div div {
+  margin: 40px;
+  padding: 40px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.gaming-page .h1-text {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  background-color: #b1b9bd;
+}

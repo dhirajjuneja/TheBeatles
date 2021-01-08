@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranking Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/dist/rank.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid justify-content-center align-items-center">
+          <a class="navbar-brand" href="index.html">TheBeatles</a>
+        </div>
+      </header>
+      <h3 class="d-flex justify-content-center align-items-center">
+        Welcome to ranking page here you will see your rank globally.
+      </h3>
+      <div class="winners container">
+        <div class="gold d-flex justify-content-center">
+          <img src="first.svg" width="160" height="90" alt="" />
+          <h3 class="d-flex align-items-center" style="color: #f7bc14">Mark</h3>
+        </div>
+
+        <div class="other-winners d-flex justify-content-between">
+          <div class="silver d-flex">
+            <img src="second.svg" width="160" height="90" alt="" />
+
+            <h3 class="d-flex align-items-center" style="color: #ff6d3a">
+              Jeff
+            </h3>
+          </div>
+          <div class="bronze d-flex">
+            <img
+              src="https://www.flaticon.com/svg/static/icons/svg/1021/1021179.svg"
+              width="160"
+              height="90"
+              alt=""
+            />
+            <h3
+              class="d-flex align-items-center"
+              style="color: rgb(160 163 170)"
+            >
+              Steve
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <table class="table border">
+        <thead>
+          <tr>
+            <th scope="col">Ranking</th>
+            <th scope="col">Name</th>
+            <th scope="col">TBeat Coins</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>15201</td>
+          </tr>
+          <tr>
+            <th scope="row tbeat-coins">2</th>
+            <td>Jeff</td>
+            <td>9504</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Steve</td>
+            <td>6524</td>
+          </tr>
+          <tr class="more">
+            <th scope="row">...</th>
+            <td>...</td>
+            <td>...</td>
+          </tr>
+
+          <tr class="your-score table-dark">
+            <th scope="row">652</th>
+            <td>Y O U</td>
+            <td>6</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </body>
+</html>
