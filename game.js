@@ -7,7 +7,7 @@ function confirmGame() {
     div_element.setAttribute('id','game-box');
     document.getElementById('game_start').appendChild(div_element);
     document.getElementById('game-box').style.backgroundColor = 'red';
-    document.getElementsByClassName('start-content').textContent = 'Waiting for other player to start';
+    document.getElementById('start-content').textContent = 'Waiting for other player to start...';
   } else {
     window.location.href = "index.html";
   }
